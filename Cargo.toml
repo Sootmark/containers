@@ -1,0 +1,33 @@
+[package]
+name = "sootmark-containers"
+version = "0.1.1"
+edition = "2021"
+rust-version = "1.80"
+description = "Container forensics: Docker container configurations, json-file logs and image layers, and Kubernetes CRI container logs."
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/Sootmark/containers"
+homepage = "https://sootmark.com"
+keywords = ["forensics", "dfir", "incident-response", "docker", "kubernetes"]
+# Sources only: test fixtures stay in the repository.
+include = ["/src", "/README.md", "/LICENSE-APACHE", "/LICENSE-MIT"]
+
+[lib]
+name = "containers"
+
+[dependencies]
+common = { package = "sootmark-common", version = "0.3.7" }
+
+[dev-dependencies]
+proptest = "1"
+
+[lints.rust]
+unsafe_code = "forbid"
+missing_docs = "warn"
+
+[lints.clippy]
+pedantic = { level = "warn", priority = -1 }
+module_name_repetitions = "allow"
+cast_possible_truncation = "allow"
+cast_sign_loss = "allow"
+cast_possible_wrap = "allow"
+cast_precision_loss = "allow"

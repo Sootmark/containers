@@ -1,0 +1,27 @@
+container	e7d0b7ea5ccf08366e2b0c8afa2318674e8aefe802315378125d2bb83fe3110c	e7d0b7ea5ccf	Creation Time	1452185348507979
+container	e7d0b7ea5ccf08366e2b0c8afa2318674e8aefe802315378125d2bb83fe3110c	e7d0b7ea5ccf	Start Time	1452185348674873
+cri	stderr	F	2024/04/16 06:21:30 HTTP service listening on 0.0.0.0:80
+cri	stderr	F	2024/04/16 06:21:30 Health service listening on 0.0.0.0:81
+cri	stderr	F	2024/04/16 06:21:30 Starting server...
+cri	stderr	F	log content 2
+cri	stdout	F	10.0.2.15:37674 - - [Tue, 16 Apr 2024 06:23:05 UTC] "GET / HTTP/1.0" Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36
+cri	stdout	F	10.0.2.1:34564 - - [Tue, 16 Apr 2024 06:24:44 UTC] "GET /healthz HTTP/1.1" kube-probe/1.27
+cri	stdout	F	10.0.2.1:34574 - - [Tue, 16 Apr 2024 06:24:49 UTC] "GET /readiness HTTP/1.1" kube-probe/1.27
+cri	stdout	F	10.0.2.1:36006 - - [Tue, 16 Apr 2024 06:24:29 UTC] "GET /readiness HTTP/1.1" kube-probe/1.27
+cri	stdout	F	10.0.2.1:38936 - - [Tue, 16 Apr 2024 06:25:44 UTC] "GET /healthz HTTP/1.1" kube-probe/1.27
+cri	stdout	F	10.0.2.1:39914 - - [Tue, 16 Apr 2024 06:25:29 UTC] "GET /readiness HTTP/1.1" kube-probe/1.27
+cri	stdout	F	10.0.2.1:45586 - - [Tue, 16 Apr 2024 06:25:39 UTC] "GET /readiness HTTP/1.1" kube-probe/1.27
+cri	stdout	F	10.0.2.1:47888 - - [Tue, 16 Apr 2024 06:23:44 UTC] "GET /healthz HTTP/1.1" kube-probe/1.27
+cri	stdout	F	10.0.2.1:48854 - - [Tue, 16 Apr 2024 06:24:59 UTC] "GET /readiness HTTP/1.1" kube-probe/1.27
+cri	stdout	F	10.0.2.1:50862 - - [Tue, 16 Apr 2024 06:24:39 UTC] "GET /readiness HTTP/1.1" kube-probe/1.27
+cri	stdout	F	10.0.2.1:57922 - - [Tue, 16 Apr 2024 06:21:44 UTC] "GET /healthz HTTP/1.1" kube-probe/1.27
+cri	stdout	F	10.0.2.1:59838 - - [Tue, 16 Apr 2024 06:21:39 UTC] "GET /readiness HTTP/1.1" kube-probe/1.27
+cri	stdout	P	log content 1
+layer	/bin/sh -c sed -i 's/^#\s*\(deb.*universe\)$/\1/g' /etc/apt/sources.list	1444670823079273
+log	stdout	\x1b]0;root@e7d0b7ea5ccf: /home/plaso\x07root@e7d0b7ea5ccf:/home/plaso# ls\x0d\x0a	1452185350000000
+log	stdout	\x1b]0;root@e7d0b7ea5ccf: /home/plaso\x07root@e7d0b7ea5ccf:/home/plaso# ls\x0d\x0a	1452185350200000
+log	stdout	\x1b]0;root@e7d0b7ea5ccf: /home/plaso\x07root@e7d0b7ea5ccf:/home/plaso# ls\x0d\x0a	1452185350230000
+log	stdout	\x1b]0;root@e7d0b7ea5ccf: /home/plaso\x07root@e7d0b7ea5ccf:/home/plaso# ls\x0d\x0a	1452185350237000
+log	stdout	\x1b]0;root@e7d0b7ea5ccf: /home/plaso\x07root@e7d0b7ea5ccf:/home/plaso# ls\x0d\x0a	1452185350237200
+log	stdout	\x1b]0;root@e7d0b7ea5ccf: /home/plaso\x07root@e7d0b7ea5ccf:/home/plaso# ls\x0d\x0a	1452185350237220
+log	stdout	\x1b]0;root@e7d0b7ea5ccf: /home/plaso\x07root@e7d0b7ea5ccf:/home/plaso# ls\x0d\x0a	1452185350237222

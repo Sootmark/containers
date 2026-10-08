@@ -1,0 +1,5 @@
+plaso.tsv: what plaso (the log2timeline/plaso:20260720 Docker image) reads
+from tests/fixtures/plaso/ with its jsonl/docker_container_config,
+jsonl/docker_container_log, jsonl/docker_layer_config and text/cri_log
+parsers (psort -o json_line), one line per event (see tests/plaso.rs).
+Written from plaso's output, not from this crate.
